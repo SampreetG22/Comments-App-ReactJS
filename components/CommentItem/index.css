@@ -1,0 +1,161 @@
+.amber {
+  background-color: #f59e0b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  margin-right: 20px;
+}
+
+.blue {
+  background-color: #0b69ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+.orange {
+  background-color: #f97316;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+.emerald {
+  background-color: #10b981;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+.teal {
+  background-color: #14b8a6;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+.red {
+  background-color: #b91c1c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  padding-left: 14px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+}
+
+/* Write your CSS here */
+.indCommentEl {
+  list-style-type: none;
+}
+.initialNameTimeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.nameDateCommentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.nameTime {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.likeAndDelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commentText {
+  width: 100%;
+  font-size: 14px;
+  color: #475569;
+  margin: 0px;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.fullName {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.timeCSS {
+  font-size: 12px;
+  color: darkgray;
+}
+.likeBtn {
+  margin-right: 12px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likeImage {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.BlueText {
+  color: #0ea5e9;
+  font-size: 15px;
+  font-weight: 500;
+}
+.BlackText {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}

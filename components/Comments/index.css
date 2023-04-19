@@ -1,0 +1,84 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.mainContainer {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.subContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.inputFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.paraCSS {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.commentImage {
+  width: 30%;
+  height: 20%;
+  margin-right: 20px;
+}
+.inputBoxCSS {
+  margin-bottom: 10px;
+  outline: none;
+  font-family: 'Roboto';
+  padding: 10px;
+  font-size: 15px;
+  width: 75%;
+  border-radius: 3px;
+  outline: none;
+  border-width: 1px;
+}
+.textClass {
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  border-width: 1px;
+  padding: 10px;
+  font-size: 15px;
+}
+.BtnClass {
+  cursor: pointer;
+  background-color: #0284c7;
+  border: none;
+  color: white;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.subContainer2 {
+  width: 100%;
+  padding-right: 30px;
+}
+.commentList {
+  padding: 0px;
+}
+
+.commentsCount {
+  background-color: #0284c7;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.commentsText {
+  font-size: 15px;
+  font-weight: 500;
+}
